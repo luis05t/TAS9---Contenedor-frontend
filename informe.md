@@ -215,7 +215,7 @@ docker-compose up --build
 ```
 - Verificar que el backend corre en http://localhost:3001/mediciones (puedes probar con navegador o Postman).
 
-- Verificar que el frontend corre en http://localhost:3002 y muestra la tabla con los datos consumidos del backend.
+- Verificar que el frontend corre en http://localhost:3000 y muestra la tabla con los datos consumidos del backend.
 ## 9. Resultados esperados
 A continuación, se presentan los resultados optenidos:
 - 1. Backend responde con datos JSON simulados
@@ -236,7 +236,7 @@ El frontend hace correctamente una solicitud fetch() al backend, obtiene el JSON
 
 Esta tabla contiene columnas como: ID, temperatura, ritmo cardíaco y fecha.
 
-Lo esperado es ver visualmente en el navegador (en http://localhost:3002) una tabla estructurada con los datos provenientes del backend, no datos vacíos ni errores de carga.
+Lo esperado es ver visualmente en el navegador (en http://localhost:3000) una tabla estructurada con los datos provenientes del backend, no datos vacíos ni errores de carga.
 
 
 ![Termina](./Imagenes/2.png)
