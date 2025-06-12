@@ -1,9 +1,9 @@
-# Contenerización de aplicación frontend React y backend Node.js para visualización de datos de salud mediante API REST
+# Contenerización de aplicación frontend React y backend  para visualización de datos de salud mediante API REST
 
 ---
 
 ## 1. Título  
-**Implementación de una aplicación frontend React y backend Node.js para visualización de datos de salud mediante contenerización con Docker y comunicación entre contenedores**
+**Implementación de una aplicación frontend React y backend  para visualización de datos de salud mediante contenerización con Docker y comunicación entre contenedores**
 
 ---
 
@@ -14,19 +14,18 @@ La práctica se completó en aproximadamente **1 hora y 30 minutos**.
 
 ## 3. Fundamentos  
 
-En esta práctica se construyeron dos proyectos independientes, uno backend desarrollado en Node.js que expone una API REST para proveer datos de salud, y otro frontend desarrollado en React que consume dicha API y muestra los datos en una tabla. Ambos proyectos fueron contenerizados con Docker y orquestados con Docker Compose para facilitar la comunicación entre contenedores.
+En esta práctica se construyeron dos proyectos independientes, uno backend que expone una API REST para proveer datos de salud, y otro frontend desarrollado en React que consume dicha API y muestra los datos en una tabla. Ambos proyectos fueron contenerizados con Docker y orquestados con Docker Compose para facilitar la comunicación entre contenedores.
 
 ### Conceptos clave  
 - **API REST**: Interfaz que permite obtener datos mediante peticiones HTTP.  
-- **React**: Biblioteca para construir interfaces de usuario dinámicas en frontend.  
-- **Node.js con Express**: Entorno y framework para crear servidores backend en JavaScript.  
+- **React**: Biblioteca para construir interfaces de usuario dinámicas en frontend.   
 - **Docker**: Plataforma para contenerizar aplicaciones y sus dependencias.  
 - **Docker Compose**: Herramienta para orquestar múltiples contenedores con una configuración sencilla.
 
 ---
 
 ## 4. Conocimientos previos  
-- Conocimientos básicos de JavaScript, React y Node.js.  
+- Conocimientos básicos de JavaScript y React  
 - Manejo básico de Docker y Docker Compose.  
 - Fundamentos de desarrollo frontend y backend.  
 - Comprensión del concepto de API REST.  
@@ -34,7 +33,7 @@ En esta práctica se construyeron dos proyectos independientes, uno backend desa
 ---
 
 ## 5. Objetivos a alcanzar  
-1. Construir un backend en Node.js que exponga una API REST con datos de mediciones de salud.  
+1. Construir un backend  que exponga una API REST con datos de mediciones de salud.  
 2. Construir un frontend en React que consuma la API REST y despliegue los datos en una tabla.  
 3. Contenerizar ambos proyectos usando Docker.  
 4. Orquestar la comunicación y ejecución simultánea de ambos contenedores con Docker Compose.  
@@ -58,7 +57,7 @@ En esta práctica se construyeron dos proyectos independientes, uno backend desa
 
 ## 8. Procedimiento  
 
-### Parte 1: Construcción del backend Node.js  
+### Parte 1: Construcción del backend   
 
 1. Crear la carpeta del backend y el archivo `package.json` con dependencias básicas:
 
@@ -221,7 +220,7 @@ A continuación, se presentan los resultados optenidos:
 - 1. Backend responde con datos JSON simulados
 Esto significa que:
 
-El contenedor del backend (Node.js) está funcionando correctamente.
+El contenedor del backend está funcionando correctamente.
 
 Cuando se hace una solicitud HTTP GET al endpoint (por ejemplo, http://localhost:3001/mediciones), el backend devuelve un conjunto de datos simulados en formato JSON (texto estructurado que representa los datos).
 
