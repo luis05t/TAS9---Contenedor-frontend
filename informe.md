@@ -79,8 +79,7 @@ const port = 3001;
 app.use(cors());
 
 const mediciones = [
-  { id: 1, temperatura: 36.5, ritmo_cardiaco: 70, fecha: "2025-06-10" },
-  { id: 2, temperatura: 37.0, ritmo_cardiaco: 75, fecha: "2025-06-11" }
+  { id: 1, temperatura: 36.5, ritmo_cardiaco: 70, fecha: "2025-06-10" }
 ];
 
 app.get('/mediciones', (req, res) => {
